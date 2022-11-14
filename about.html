@@ -20,6 +20,15 @@
 			    </div>
 			  </div>
 			</nav>
+			<!-- Google tag (gtag.js) -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-F6NCMQHZB8"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'G-F6NCMQHZB8');
+			</script>
 
 <br>
 <center>
@@ -86,6 +95,33 @@
 	<p>favourite artists: I am basic... Beethoven, Chopin, Mozart!</p>
 	<p>my greatest flaw: starting a song I can't finish. I start a song realizing it takes me hours to learn a few bars or a couple lines and then I find a new one, just to start the process over again</p>
 	<p>songs I'm currently (barely) working on: Nocturne no 1, op 9 in B flat; Clair de lune; Where is my mind</p>
+
+	<script type="text/javascript" src="https://platform.linkedin.com/xdoor/scripts/in.js">
+	api_key: {api_key}
+	extensions: HcmWidget@https://www.linkedin.com/talent/widgets/assets/javascripts/profile-widget.js
+	</script>
+
+	<script type="IN/HcmWidget"
+	data-widget-type="ATS"
+	data-ats-candidate-id="{ats_candidate_id}"
+	data-integration-context="{customer_integration_context}"
+	data-show-unlink-url="{true|false}"
+	data-confirm-unlink="{true|false}"
+	data-onlink="link"
+	data-onunlink="unlink"
+	data-width="{width}">
+	</script>
+
+	<script>
+	function link(member) {
+	    console.log("Link callback", member);
+	 }
+	function unlink(member){
+	    console.log("Unlink callback", member);
+	}
+	</script>
+
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
