@@ -141,7 +141,7 @@
 	</div>
 
 	<!-- The four columns -->
-
+<div>
 	<div class="row">
 	  <div class="column">
 	    <img alt="Alberta" src="https://i.postimg.cc/QdmcvhcR/1.jpg" style="width:100%" onclick="myFunction(this);" class="tt-logo" />
@@ -263,7 +263,8 @@
 	  expandImg.parentElement.style.display = "block";
 	}
 	</script>
-<p>
+</div>
+
 <script type = "text/javascript">
 
 /***********************************************
@@ -275,7 +276,7 @@
 var days = 730; // days until cookie expires = 2 years.
 var lastvisit=new Object();
 var firstvisitmsg="This is your first visit to this page. Welcome!";
-lastvisit.subsequentvisitmsg="Welcome back! Last visit on: <b>[displaydate]</b>";
+lastvisit.subsequentvisitmsg="Welcome back! Last visit was on: <b>[displaydate]</b>";
 
 lastvisit.getCookie=function(Name){
 var re=new RegExp(Name+"=[^;]+", "i");
@@ -331,7 +332,8 @@ lastvisit.setCookie("visitc", wh, days);
 
 lastvisit.showmessage();
 
-</script></p>
+</script>
+
 
 </body>
 </html>
