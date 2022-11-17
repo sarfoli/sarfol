@@ -39,178 +39,172 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
           <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.header {
-  text-align: center;
-  padding: 32px;
-}
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
 
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
-/* Create three equal columns that sits next to each other */
-.column {
-  -ms-flex: 33.333%; /* IE 10 */
-  flex: 33.333%;
-  padding: 0 4px;
-}
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+  }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: right;
-}
+  .column img {
+    margin-top: 8px;
+    vertical-align: right;
+  }
 
 
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
 
-.btn:hover {
-  background-color: #ddd;
-}
+  .btn:hover {
+    background-color: #ddd;
+  }
 
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
-</head>
-<body>
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  </style>
+  </head>
+  <body>
 
-<!-- Header -->
-<div class="header" id="myHeader">
-  <center><h1>H  I  K  I  N  G</h1></center>
-  <p>change views</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn" onclick="two()">2</button>
-  <button class="btn" onclick="four()">3</button>
-</div>
-
-<!-- Photo Grid -->
-<div class="row">
-  <div class="column">
-    <img src="https://i.postimg.cc/VL76NYvY/202bb36c-b74d-4032-9dec-c079e6eae124.jpg" style="width:100%">
-
-    <img src="https://i.postimg.cc/526tYZQ8/b06e4f16-61ac-429b-9a3a-95f4fa21a1ad.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/LXM4W5CV/IMG-0061.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/C1HMp09p/IMG-0099.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/RZ6MVK2R/IMG-0111.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/rp4FgxJm/IMG-0149.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/jqcq8szz/IMG-0347.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/vBSqBgJr/IMG-9964.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/q7T9VKrg/IMG-4874.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/52vZR3ZZ/IMG-5266.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/ncNy25w4/IMG-5274.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/N0kZg0GD/IMG-7982.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/Sx0PC9JV/IMG-9824.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/85t8bzqc/IMG-2398.jpg" style="width:100%">
+  <!-- Header -->
+  <div class="header" id="myHeader">
+    <center><h1><b>H  I  K  I  N  G</b></h1></center>
+    <p>change views</p>
+    <button class="btn active" onclick="three()">3</button>
+    <button class="btn" onclick="two()">2</button>
+    <button class="btn" onclick="one()">1</button>
   </div>
-  <div class="column">
-    <img src="https://i.postimg.cc/VkpkjDXp/IMG-0460.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/YqyrHbD0/IMG-0798.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/G2rrQNt7/IMG-0814.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/6pkB7TXN/IMG-1155.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/KYtxtFG3/IMG-0885.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/J0p1tq1T/IMG-0965.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/bNvyWKT4/IMG-1149.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/Sx0PC9JV/IMG-9824.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/ydNpsXb6/IMG-9893.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/0NPHHqGw/IMG-9904.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/g0stCB4B/IMG-9955.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/g0stCB4B/IMG-9955.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/ydNpsXb6/IMG-9893.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/0NPHHqGw/IMG-9904.jpg" style="width:100%">
+
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+      <img src="https://i.postimg.cc/LXM4W5CV/IMG-0061.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/VL76NYvY/202bb36c-b74d-4032-9dec-c079e6eae124.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/526tYZQ8/b06e4f16-61ac-429b-9a3a-95f4fa21a1ad.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/C1HMp09p/IMG-0099.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/RZ6MVK2R/IMG-0111.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/rp4FgxJm/IMG-0149.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/0ycNb9Nk/IMG-2450-copy.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/q7T9VKrg/IMG-4874.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/jqcq8szz/IMG-0347.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/52vZR3ZZ/IMG-5266.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/ydNpsXb6/IMG-9893.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/ncNy25w4/IMG-5274.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/Sx0PC9JV/IMG-9824.jpg" style="width:100%">
+    </div>
+
+
+    <div class="column">
+      <img src="https://i.postimg.cc/VkpkjDXp/IMG-0460.jpg" style="width:100%">
+          <img src="https://i.postimg.cc/fTFNFkk0/IMG-1311.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/bNvyWKT4/IMG-1149.jpg" style="width:100%">
+          <img src="https://i.postimg.cc/90KnxR1m/IMG-9546.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/KYtxtFG3/IMG-0885.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/J0p1tq1T/IMG-0965.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/Sx0PC9JV/IMG-9824.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/ydNpsXb6/IMG-9893.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/g0stCB4B/IMG-9955.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/YqyrHbD0/IMG-0798.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/0NPHHqGw/IMG-9904.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/85t8bzqc/IMG-2398.jpg" style="width:100%">
+    </div>
+
+    <div class="column">
+      <img src="https://i.postimg.cc/3JWhn2rT/IMG-1237.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/6pkB7TXN/IMG-1155.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/SsZ5MtMz/IMG-2458.png" style="width:100%">
+      <img src="https://i.postimg.cc/wjmpdHs4/IMG-1260.jpg" style="width:100%">
+          <img src="https://i.postimg.cc/G2rrQNt7/IMG-0814.jpg" style="width:100%">
+  	<img src="https://i.postimg.cc/d31bNKYB/IMG-1555.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/50xdvCKD/IMG-2396.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/vBSqBgJr/IMG-9964.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/q7cHzLw8/IMG-2442.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/bvrwn4GQ/IMG-1133-copy.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/mk5006ZG/IMG-2682.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/x8cZyyvp/IMG-9509.jpg" style="width:100%">
+      <img src="https://i.postimg.cc/m21qPj2t/IMG-9658.jpg" style="width:100%">
+    </div>
   </div>
-  <div class="column">
-    <img src="https://i.postimg.cc/6pkB7TXN/IMG-1155.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/3JWhn2rT/IMG-1237.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/wjmpdHs4/IMG-1260.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/fTFNFkk0/IMG-1311.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/d31bNKYB/IMG-1555.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/50xdvCKD/IMG-2396.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/q7cHzLw8/IMG-2442.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/SsZ5MtMz/IMG-2458.png" style="width:100%">
-    <img src="https://i.postimg.cc/bvrwn4GQ/IMG-1133-copy.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/mk5006ZG/IMG-2682.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/0ycNb9Nk/IMG-2450-copy.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/x8cZyyvp/IMG-9509.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/90KnxR1m/IMG-9546.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/m21qPj2t/IMG-9658.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/52wR3tzJ/IMG-9811.jpg" style="width:100%">
-    <img src="https://i.postimg.cc/g0stCB4B/IMG-9955.jpg" style="width:100%">
-  </div>
-</div>
 
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+  <script>
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
 
-// Declare a loop variable
-var i;
+  // Declare a loop variable
+  var i;
 
-// Full-width images
-function one() {
+  // Full-width images
+  function one() {
+      for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "100%";  // IE10
+      elements[i].style.flex = "100%";
+    }
+  }
+
+  function two() {
+      for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "50%";  // IE10
+      elements[i].style.flex = "50%";
+    }
+  }
+
+  // Three images side by side
+  function three() {
     for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
+      elements[i].style.msFlex = "33.333%";  // IE10
+      elements[i].style.flex = "33.333%";
+    }
   }
-}
 
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myHeader");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
   }
-}
+  </script>
 
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-
-</body>
-</html>
+  </body>
+  </html>
