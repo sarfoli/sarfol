@@ -1,5 +1,5 @@
 <html>
-	<head>
+<head>
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-F6NCMQHZB8"></script>
@@ -14,9 +14,63 @@
 	<title>Sarah.</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="shortcut icon" href="https://i.postimg.cc/g0hKBywt/731-F62-C8-2-DC1-4020-8-E95-634040-CB26-DB.png" type="image/x-icon">
-	</head>
-	<body>
 
+  <style>
+  body {
+    background-color: #F2F2F2;
+  }
+  </style>
+
+  <style>
+    /* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+    </style>
+
+</head>
+<body>
     <!-- Navbar/Collapse -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img src="https://i.postimg.cc/g0hKBywt/731-F62-C8-2-DC1-4020-8-E95-634040-CB26-DB.png" width="35" height="35" class="d-inline-block align-top" alt="">
@@ -73,14 +127,29 @@
     	    <h1 style="font-size:50px">P I A N O</h1>
     	  </div>
     	</div>
-
 <br>
-<p>sadly I haven't had much time to spend on this hobby, but it is a huge passion of mine.</p>
-<p>I took lessons for over 12 years. Completed my grade 8 piano at the Royal Conservatory of Music</p>
-<p>favourite genre: Classics... the more melancholic the better</>
-<p>favourite artists: I am basic... Beethoven, Chopin, Mozart!</p>
-<p>my greatest flaw: starting a song I can't finish. I start a song realizing it takes me hours to learn a few bars or a couple lines and then I find a new one, just to start the process over again</p>
-<p>songs I'm currently (barely) working on: Nocturne no 1, op 9 in B flat; Clair de lune; Where is my mind</p>
-
+      <div class="row">
+        <div class="side">
+          <h5>My Favourite Composers:</h5>
+          <p>Beethoven</p>
+          <p>Chopin</p>
+          <p>Bach</p>
+          <p>(yup... all the basic classical artists)</p>
+          <br>
+          <h5>Mr. Theodore picking a comfy place to sits</h5>
+          <img src="https://i.postimg.cc/nr6FNQk1/2-E182643-A1-F6-43-A8-80-D6-DDA91675-DFDF-2.jpg">
+        </div>
+        <div class="main">
+          <h2>TITLE HEADING</h2>
+          <p>sadly I haven't had much time to spend on this hobby, but it is a huge passion of mine.</p>
+          <p>I took lessons for over 12 years. Completed my grade 8 piano at the Royal Conservatory of Music</p>
+          <p>favourite genre: Classics... the more melancholic the better</>
+          <p>favourite artists: I am basic... Beethoven, Chopin, Mozart!</p>
+          <p>my greatest flaw: starting a song I can't finish. I start a song realizing it takes me hours to learn a few bars or a couple lines and then I find a new one, just to start the process over again</p>
+          <p>songs I'm currently (barely) working on: Nocturne no 1, op 9 in B flat; Clair de lune; Where is my mind</p>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+        </div>
+      </div>
 </body>
 </html>
